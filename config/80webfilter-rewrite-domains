@@ -1,0 +1,13 @@
+WebfilterRewriteDomainsReplace:
+name            Domains for rewriting
+description     List of domains which should be internally rewritten to another domain by the DNS server. Wild cards (*) are supported. This setting can be used for example if a search engine supports filtering via accessing a special server, but this rewriting is not supported by the webfilter by default.
+type            array
+group           Module: Webfilter
+default         ()
+
+WebfilterRewriteDomainsReplacement:
+name		Domains used as replacements
+description	List of domains which should be used as internal replacement for the domains from "Domains for rewriting". The order and amount must match with that setting.
+type		array
+group		Module: Webfilter
+default		()
