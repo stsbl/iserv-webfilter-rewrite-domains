@@ -7,7 +7,7 @@ Standards-Version: 3.9.5
 
 Package: stsbl-iserv-webfilter-rewrite-domains
 Architecture: all
-Depends: iserv-portal
+Depends: iserv-portal, iserv-webfilter, iserv-webfilter-safesearch
 Description: IServ Webfilter: Domains umschreiben
  Dieses Modul erlaubt es, bestimmte Domains im vom lokalen Netzwerk verwendeten DNS-Server umzuschreiben.
 Tag: suite::iserv:portal, role::plugin, status::highlighted, status::experimental, implemented-in::perl
