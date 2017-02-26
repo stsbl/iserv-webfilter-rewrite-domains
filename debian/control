@@ -1,0 +1,13 @@
+Source: stsbl-iserv-webfilter-rewrite-domains
+Section: misc
+Priority: extra
+Maintainer: Stadtteilschule Blankenese <repository@stsbl.de>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.5
+
+Package: stsbl-iserv-webfilter-rewrite-domains
+Architecture: all
+Depends: iserv-portal
+Description: Webfilter: Domains umschreiben
+ Dieses Modul erlaubt es, bestimmte Domains im vom lokalen Netzwerk verwendeten DNS-Server umzuschreiben.
+Tag: suite::iserv:portal, role::plugin, status::highlighted, status::experimental, implemented-in::perl

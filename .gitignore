@@ -1,0 +1,5 @@
+debian/stsbl-iserv-webfilter-rewrite-domains/*
+debian/stsbl-iserv-webfilter-rewrite-domains.debhelper.log
+debian/stsbl-iserv-webfilter-rewrite-domains.substvars
+debian/debhelper-build-stamp
+debian/files
