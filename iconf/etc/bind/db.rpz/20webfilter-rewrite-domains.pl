@@ -23,11 +23,11 @@ sub config()
   }
   
   print "; Custom definitions for domain rewritings\n";
-    
-  for (my $i = 0; $i lt @DomainsReplace; $i++) {
-    print $DomainsReplace[$i].' IN CNAME '.$DomainsReplacement[$i].'.'."\n";
+  my $i = 0;
+  foreach my $replace (@DomainsReplace) {
+    print "$replace IN CNAME $DomainsReplacement[$i].\n";
+    $i++;
   }
-
   print "\n";
 }
 
