@@ -1,3 +1,10 @@
+stsbl-iserv-webfilter-rewrite-domains (17.03.05-0) experimental; urgency=medium
+
+  [ Felix Jacobi ]
+  * Fixed domain sorting.
+
+ -- Stadtteilschule Blankenese <repository@stsbl.de>  Sun, 05 Mar 2017 00:10:28 +0100
+
 stsbl-iserv-webfilter-rewrite-domains (17.02.26-1) experimental; urgency=medium
 
   [ Felix Jacobi ]
