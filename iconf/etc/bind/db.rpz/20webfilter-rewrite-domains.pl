@@ -4,15 +4,11 @@ use warnings;
 use strict;
 use IServ::Conf;
 
-my $fn = "/var/lib/iserv/config/config.pm";
 my @DomainsReplace = ();
 my @DomainsReplacement = ();
 
-if (-r $fn) {
-  require $fn;
-  @DomainsReplace = @{$conf->{WebfilterRewriteDomainsReplace}};
-  @DomainsReplacement = @{$conf->{WebfilterRewriteDomainsReplacement}};
-}
+@DomainsReplace = @{$conf->{WebfilterRewriteDomainsReplace}};
+@DomainsReplacement = @{$conf->{WebfilterRewriteDomainsReplacement}};
 
 sub config()
 {
