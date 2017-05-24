@@ -1,3 +1,11 @@
+stsbl-iserv-webfilter-rewrite-domains (17.05.24-0) experimental; urgency=medium
+
+  [ Felix Jacobi ]
+  * Removed experimental and highlighted tag.
+  * Do not import config (already done by IServ::Conf).
+
+ -- Stadtteilschule Blankenese <repository@stsbl.de>  Wed, 24 May 2017 06:36:05 +0200
+
 stsbl-iserv-webfilter-rewrite-domains (17.03.05-0) experimental; urgency=medium
 
   [ Felix Jacobi ]
