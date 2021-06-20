@@ -4,6 +4,7 @@ Priority: optional
 Maintainer: Stadtteilschule Blankenese <repository@stsbl.de>
 Build-Depends: debhelper-compat (= 13), dh-sequence-iserv, dh-sequence-stsbl
 Standards-Version: 4.5.0
+Homepage: https://it.stsbl.de/
 
 Package: stsbl-iserv-webfilter-rewrite-domains
 Architecture: all
@@ -14,5 +15,6 @@ Depends: iserv-portal,
          ${perl:Depends}
 Xb-Private-Iserv-Revision: ${iserv:Revision}
 Description: IServ Webfilter: Domains umschreiben
- Dieses Modul erlaubt es, bestimmte Domains im vom lokalen Netzwerk verwendeten DNS-Server umzuschreiben.
+ Dieses Modul erlaubt es, bestimmte Domains im vom lokalen Netzwerk verwendeten
+ DNS-Server umzuschreiben.
 Tag: suite::iserv:portal, role::plugin, implemented-in::perl
